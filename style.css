@@ -1,0 +1,30 @@
+h1{
+font-size: 30px;
+text-align: center;
+color: #de7471
+}
+
+p{
+font-size: 20px;
+text-align: left;
+font-family: Helvetica, sans-serif;
+}
+
+/*body {
+ background-image: url("images_background.jpeg");
+ background-color: #cccccc;
+}*/
+
+body {
+  background-image: url("images_background.jpeg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+/*body {
+background-color: #007471;
+}*/
